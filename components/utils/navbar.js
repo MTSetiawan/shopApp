@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div className="navbar bg-violet-900 text-white">
       <div className="flex-1">
-        <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <a className="btn btn-ghost normal-case text-xl">Shop App</a>
       </div>
       <div className="flex-none gap-2">
         <div className="form-control">
@@ -15,13 +15,12 @@ export default function Navbar() {
             className="input input-bordered"
           />
         </div>
-        <div className="dropdown dropdown-end">
-          <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-            <div className="w-10 rounded-full">
-              <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-            </div>
-          </label>
-        </div>
+      </div>
+
+      <div className="px-8">
+        <Link href="">
+          <h3>Daftar</h3>
+        </Link>
       </div>
     </div>
   );
