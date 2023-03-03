@@ -12,13 +12,13 @@ export default function Navbar() {
           <input
             type="text"
             placeholder="Search"
-            className="input input-bordered"
+            className="input input-bordered bg-violet-500"
           />
         </div>
       </div>
 
       <div className="px-8">
-        <Link href="">
+        <Link href="/login">
           <h3>Daftar</h3>
         </Link>
       </div>
